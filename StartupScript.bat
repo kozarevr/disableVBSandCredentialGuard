@@ -41,7 +41,9 @@ bcdedit /set hypervisorlaunchtype off
 REM Disable Hyper-V
 dism /online /disable-feature /featurename:Microsoft-hyper-v-all
 
-PowerShell -NoProfile -ExecutionPolicy Bypass -File ".\dgreadiness_v3.6\DG_Readiness_Tool_v3.6.ps1" -Disable
+
+Powershell -NoProfile -ExecutionPolicy Bypass -File C:\startup\disableVBSandCredentialGuard\dgreadiness_v3.6\DG_Readiness_Tool_v3.6.ps1 -Disable
+
 PowerShell Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-Hypervisor
 
 
