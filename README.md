@@ -1,3 +1,5 @@
+If you are using bitlocker - Suspend Bitlocker from the Windows Control panel - you need here Admin rights <br />
+To open Control panel with admin rights -> windows button and R and then right control -> ctrl + shift + enter and enter the admin user information<br /><br />
 Disable Boot Secure in BIOS <br />
 ![image](https://github.com/user-attachments/assets/907ba02f-b17a-4c2b-ab0d-d9a2d75c041a)
 <br />
